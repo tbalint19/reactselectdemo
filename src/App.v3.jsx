@@ -33,10 +33,10 @@ function App() {
         selectedOptions && allOptions && (
           <Select
             isMulti
-            onChange={e => console.log(e)}
             options={allOptions}
             defaultValue={selectedOptions}
-            />
+            onChange={selectedItems => console.log(selectedItems)}
+          />
         )
       }
     </div>

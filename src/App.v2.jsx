@@ -32,7 +32,7 @@ function App() {
             isMulti
             options={allOptions}
             defaultValue={selectedOptions}
-            onChange={e => console.log(e)}
+            onChange={selectedItems => console.log(selectedItems)}
         />
     </div>
   );
